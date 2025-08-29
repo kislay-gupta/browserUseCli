@@ -437,10 +437,9 @@ After every action, take a screenshot.
     clickByText,
     autoFillForm,
   ],
-  model: "gpt-4.1-mini", // ✅ OpenAI model
+  model: "gpt-4.1-mini",
 });
 
-// --- RUNNER ---
 async function main() {
   const runner = new Runner({ modelProvider: provider });
   try {
